@@ -4,7 +4,11 @@ body {
 h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 48px;
-    border: 2px solid black;
+    color: navy;
+    border: 5px solid navy;
+    border-radius: 3px;
+    text-shadow: 3px 5px 10px #81A6C6;
+    background-color: #AACDDC;
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -62,9 +66,34 @@ li a {
 .pokeinfo img {
     width: 200px;
     border-radius: 15px;
+    flex: 1;
 }
 
 .pokeinfo .paragraphs {
-    flex: 1;
-    text-align: left; /* aligns text to left */
+    flex: 2;
+    text-align: justify;
+    align-items: stretch;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    
+}
+.form {
+    align-items: center;
+    max-width: 70%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
+.submit {
+    background-color: #81A6C6;
+    color: aliceblue;
+    padding: 10px 30px;
+    margin: 20px;
+    border: 2px solid #81A6C6;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
 }
