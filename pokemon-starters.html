@@ -173,6 +173,7 @@ This evolution line is consistent across the main series Pokémon games, making 
      <label for="trainer-name">Trainer Name (*required)</label>
      <input id="trainer-name" type="text" required>
     </fieldset>
+    
     <fieldset>
      <legend>Starter Pokemon</legend>
       <label for="radio-bulbasaur">Bulbasaur</label>
@@ -182,49 +183,71 @@ This evolution line is consistent across the main series Pokémon games, making 
       <label for="radio-squirtle">Squirtle</label>
       <input type="radio" id="radio-squirtle" name="radio">
     </fieldset>
-    <fieldset>
+    
+    <fieldset class="checkbox">
      <legend>Pokemon typing preferences</legend>
      <p>For a quick survey and future reference what types do you prefer or would rather have?(select all  that apply)</p>
-     <label for="normal-type">Normal Type</label>
-     <input type="checkbox" id="normal-type" name="checkbox">
-     <label for="fire-type">Fire Type</label>
-     <input type="checkbox" id="fire-type" name="checkbox">
-     <label for="water-type">Water Type</label>
-     <input type="checkbox" id="water-type" name="checkbox">
-     <label for="electric-type">Electric Type</label>
-     <input type="checkbox" id="electric-type" name="checkbox">
-     <label for="grass-type">Grass Type</label>
-     <input type="checkbox" id="grass-type" name="checkbox">
-     <label for="ice-type">Ice Type</label>
-     <input type="checkbox" id="ice-type" name="checkbox">
-     <label for="fighting-type">Fighting Type</label>
-     <input type="checkbox" id="fighting-type" name="checkbox">
-     <label for="poison-type">Poison Type</label>
-     <input type="checkbox" id="poison-type" name="checkbox">
-     <label for="ground-type">Ground Type</label>
-     <input type="checkbox" id="ground-type" name="checkbox">
-     <label for="flying-type">Flying Type</label>
-     <input type="checkbox" id="flying-type" name="checkbox">
-     <label for="psychic-type">Psychic Type</label>
-     <input type="checkbox" id="psychic-type" name="checkbox">
-     <label for="bug-type">Bug Type</label>
-     <input type="checkbox" id="bug-type" name="checkbox">
-     <label for="rock-type">Rock Type</label>
-     <input type="checkbox" id="rock-type" name="checkbox">
-     <label for="ghost-type">Ghost Type</label>
-     <input type="checkbox" id="ghost-type" name="checkbox">
-     <label for="dragon-type">Dragon Type</label>
-     <input type="checkbox" id="dragon-type" name="checkbox">
-     <label for="dark-type">Dark Type</label>
-     <input type="checkbox" id="dark-type" name="checkbox">
-     <label for="steel-type">Steel Type</label>
-     <input type="checkbox" id="steel-type" name="checkbox">
-     <label for="fairy-type">Fairy Type</label>
-     <input type="checkbox" id="fairy-type" name="checkbox">
+     
+      <label class="checkbox-container">
+      <input type="checkbox" id="normal-type" name="checkbox">Normal Type
+      </label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="fire-type" name="checkbox">Fire Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="water-type" name="checkbox">Water Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="electric-type" name="checkbox">Electric Type</label>
+    
+      <label class="checkbox-container">
+      <input type="checkbox" id="grass-type" name="checkbox">Grass Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="ice-type" name="checkbox">Ice Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="fighting-type" name="checkbox">Fighting Type</label>
+    
+      <label class="checkbox-container">
+      <input type="checkbox" id="poison-type" name="checkbox">Poison Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="ground-type" name="checkbox">Ground Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="flying-type" name="checkbox">Flying Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="psychic-type" name="checkbox">Psychic Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="bug-type" name="checkbox">Bug Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="rock-type" name="checkbox">Rock Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="ghost-type" name="checkbox">Ghost Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="dragon-type" name="checkbox">Dragon Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="dark-type" name="checkbox">Dark Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="steel-type" name="checkbox">Steel Type</label>
+  
+      <label class="checkbox-container">
+      <input type="checkbox" id="fairy-type" name="checkbox">Fairy Type</label>
+
     </fieldset>
+    
     <fieldset>
     <legend>Extra Comments you'd like to share</legend>
-    <textarea></textarea>
+    <textarea cols="50" rows="10"></textarea>
     </fieldset>
 
     <button type="submit" name="submit" class="submit">Submit</button>
