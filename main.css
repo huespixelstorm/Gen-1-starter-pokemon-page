@@ -16,7 +16,7 @@ body {
   background-color: rgb(20, 30, 40);
 }
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Lucida Console', monospace;
     font-size: 72px;
     padding: 10px;
     margin: 10px;
@@ -63,16 +63,16 @@ img {
 .pokeinfo .paragraphs {
     flex: 3;
     margin: auto;
-    padding: 20pxs;
+    padding: 20px;
 }
 .info {
     height: 400px;            /* or whatever size you want */
   width: 80%;
   margin: 20px auto;
-  padding: 5s0px;
+  padding: 50px;
   border: 2px solid #888;
-  overflow-y: scroll;       /* vertical scrolling */
   scroll-behavior: smooth;  /* smooth scrolling inside box */
+  overflow: hidden;
 }
 .form {
     width: 60%;
@@ -131,4 +131,16 @@ input[type="checkbox"] {
     box-shadow: 1px 3px navy,
     -1px -3px lightblue;
     transform: scale(1.05);  /* 5% bigger */
+}
+
+
+/*IMPORTANT For the Javascript navigation buttons to work*/
+.tab-content,
+.sub-content {
+  display: none;
+}
+
+.tab-content.active,
+.sub-content.active {
+  display: block;
 }
