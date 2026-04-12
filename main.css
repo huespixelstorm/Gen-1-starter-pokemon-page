@@ -127,8 +127,26 @@ input[type="checkbox"] {
 }
 .tab-btn {
     padding: 15px 30px;
+    border-radius: 5px;
+    background-color: rgb(20, 30, 40);
+    font-family: 'Lucida Console', monospace;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 3px 3px black
+}
+.sub-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(20, 30, 40);
+    font-family: 'Lucida Console', monospace;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 3px 3px black
 }
 .tab-content {
     padding: 10px 20px;
-    background-color: #0f0332;
+    background-color: rgb(51, 60, 77);
+    max-width: 97%;
+    margin: 5px auto;
+    border-radius: 5px;
 }
